@@ -316,6 +316,17 @@
       color: var(--text-secondary);
     }
 
+    .founder .role a {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid var(--border);
+      transition: color 0.2s;
+    }
+
+    .founder .role a:hover {
+      color: var(--text);
+    }
+
     /* ── Footer ── */
     footer {
       max-width: 720px;
@@ -450,14 +461,6 @@
       </div>
 
       <div class="schedule-item">
-        <div class="freq">Biweekly</div>
-        <div class="detail">
-          <h3>Hands-On Workshops</h3>
-          <p>Practical sessions at the intersection of AI and science. <em>Coming soon — currently under development.</em></p>
-        </div>
-      </div>
-
-      <div class="schedule-item">
         <div class="freq">Monthly</div>
         <div class="detail">
           <h3>Invited Speakers</h3>
@@ -554,16 +557,19 @@
           <div class="role">PhD Student · Scripps Research</div>
         </div>
       </div>
-      <h3>Advisory Committee</h3>
+      <h2 style="margin-top: 2rem;">Advisory Committee</h2>
       <div class="founders">
         <div class="founder">
           <span class="name">Stefano Forli</span>
+          <div class="role"><a href="https://forlilab.org/">Forli Lab</a></div>
         </div>
         <div class="founder">
           <span class="name">Andrew Su</span>
+          <div class="role"><a href="https://sulab.org/">Su Lab</a></div>
         </div>
         <div class="founder">
           <span class="name">Bryan Briney</span>
+          <div class="role"><a href="https://brineylab.com/">Briney Lab</a></div>
         </div>
       </div>
       <p class="small" style="margin-top: 1rem;">
